@@ -16,3 +16,4 @@ if __name__ == '__main__':
 
     sqllite_url = "sqlite:///database.sqlite"
     db = SQLDatabase.from_uri(sqllite_url, include_tables=['{}'.format(table)])
+    print('hello')
