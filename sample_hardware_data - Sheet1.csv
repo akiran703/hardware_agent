@@ -1,0 +1,48 @@
+Server Model,Test Case,Error Message,Root Cause,Action to Take
+X1001,PCIE_CHECK,"Mar 27 19:11:11 archdesktop kernel: pcieport 0000:00:1c.2: AER: Correctable error message received from 0000:04:00.0
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: PCIe Bus Error: severity=Correctable, type=Physical Layer, (Receiver ID)
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: device [168c:003e] error status/mask=00000001/00006000
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: [ 0] RxErr (First)
+Mar 27 19:11:11 archdesktop kernel: pcieport 0000:00:1c.2: AER: Correctable error message received from 0000:04:00.0
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: PCIe Bus Error: severity=Correctable, type=Physical Layer, (Receiver ID)
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: device [168c:003e] error status/mask=00000001/00006000
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: [ 0] RxErr (First)
+Mar 27 19:11:11 archdesktop kernel: pcieport 0000:00:1c.2: AER: Correctable error message received from 0000:04:00.0
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: PCIe Bus Error: severity=Correctable, type=Physical Layer, (Receiver ID)
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: device [168c:003e] error status/mask=00000081/00006000
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: [ 0] RxErr (First)
+Mar 27 19:11:11 archdesktop kernel: ath10k_pci 0000:04:00.0: [ 7] BadDLLP
+Mar 27 19:11:11 archdesktop kernel: pcieport 0000:00:1c.2: AER: Correctable error message received from 0000:04:00.0
+Mar 27 19:11:12 archdesktop kernel: pcieport 0000:00:1c.2: AER: Correctable error message received from 0000:04:00.0
+Mar 27 19:11:12 archdesktop kernel: ath10k_pci 0000:04:00.0: PCIe Bus Error: severity=Correctable, type=Data Link Layer, (Receiver ID)
+Mar 27 19:11:12 archdesktop kernel: ath10k_pci 0000:04:00.0: device [168c:003e] error status/mask=00000080/00006000
+Mar 27 19:11:12 archdesktop kernel: ath10k_pci 0000:04:00.0: [ 7] BadDLLP",bios issue,turn off aspm in my bios settings
+X1001,PCIE_CHECK,"[ 3376.133031] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3376.798352] pcieport 0000:02:00.0: PCIe Bus Error: severity=Corrected, type=Physical Layer, id=0200(Receiver ID)
+[ 3376.798359] pcieport 0000:02:00.0: device [10de:0e13] error status/mask=00000001/00002000
+[ 3376.798365] pcieport 0000:02:00.0: [ 0] Receiver Error  
+[ 3376.798377] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3376.798394] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3376.798409] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.124765] pcieport 0000:02:00.0: PCIe Bus Error: severity=Corrected, type=Physical Layer, id=0200(Receiver ID)
+[ 3377.124772] pcieport 0000:02:00.0: device [10de:0e13] error status/mask=00000001/00002000
+[ 3377.124778] pcieport 0000:02:00.0: [ 0] Receiver Error  
+[ 3377.143006] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143020] pcieport 0000:02:00.0: PCIe Bus Error: severity=Corrected, type=Physical Layer, id=0200(Receiver ID)
+[ 3377.143027] pcieport 0000:02:00.0: device [10de:0e13] error status/mask=00000001/00002000
+[ 3377.143033] pcieport 0000:02:00.0: [ 0] Receiver Error  
+[ 3377.143045] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143062] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143078] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143094] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143110] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143126] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143143] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143160] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143176] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143192] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143208] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143225] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143241] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143257] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218
+[ 3377.143273] pcieport 0000:02:00.0: AER: Multiple Corrected error received: id=0218",hardware issue ,reseat the card

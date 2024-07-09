@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hardware-debug"
+version = "0.1.0"
+description = ""
+authors = ["akiran709 <kirankashok@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
