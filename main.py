@@ -19,7 +19,7 @@ if __name__ == '__main__':
     sqllite_url = "sqlite:///database.sqlite"
     db = SQLDatabase.from_uri(sqllite_url, include_tables=['{}'.format(table)])
     
-    llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key='AIzaSyDnIY8pvWPvWZeZns6oEQxtFFCjeBy_fGg')
+    llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key='enter API ')
     
     chain = SQLDatabaseChain.from_llm(llm, db, verbose = True)
     
@@ -53,3 +53,6 @@ if __name__ == '__main__':
     )
     print(agent_executor.run(final_prompt.format(
             question="What is the fix to this error message,[ 3376.798352] pcieport 0000:02:00.0: PCIe Bus Error: severity=Corrected, type=Physical Layer, id=0200(Receiver ID)")))
+    
+    
+    
