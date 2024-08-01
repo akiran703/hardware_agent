@@ -1,13 +1,10 @@
-This a simplified version of a internal tool that I created for Hyve Solutions to help spread debugging knowledge through various team. 
+This is a simplified version of an internal tool that I created for Hyve Solutions to help spread debugging knowledge among various teams.
 
-This a SQL query agent that is built using langchain. It uses a LLM that proccesses natural language that then queries a database I created, and returns relevant information 
-on debugging. 
+This is an SQL query agent that is built using langchain. It uses an LLM that processes natural language that then queries a database I created, and returns relevant information on debugging.
 
-Langchain is a open source framework that serves as a interface to interact with LLMs by creating a environment to build LLM applications 
-and integrate them with external data sources.
+Langchain is an open-source framework that serves as an interface to interact with LLMs by creating an environment to build LLM applications and integrate them with external data sources.
 
-
-The database is a mocked version of readily avaliable hardware issues and solutions found on forums. The columns in the database: Server Model, Test Case,Error Message,Root Cause,Action to Take
+The database is a mocked version of readily available hardware issues and solutions on forums. The columns in the database: Server Model, Test Case, Error Message, Root Cause, Action to Take
 
 example 
 
