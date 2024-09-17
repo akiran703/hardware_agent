@@ -41,7 +41,7 @@ Final Answer: bios issue
 
 > Finished chain.
 bios issue
-(hardware_langchain) kirakumar@Kirthikas-MacBook-Pro hardware_debug %
+
 
 
 
@@ -55,4 +55,4 @@ Final Answer: PCIE_CHECK
 
 > Finished chain.
 PCIE_CHECK
-(hardware_langchain) kirakumar@Kirthikas-MacBook-Pro hardware_debug % 
+
